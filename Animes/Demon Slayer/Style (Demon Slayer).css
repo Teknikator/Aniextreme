@@ -57,13 +57,14 @@ table {
 
 
 
-.BildAnother {
+.BildDemonSlayer {
     float: right;
     padding-left: 1%;
     padding-right: 0%;
     margin: auto;
     display: block;
 }
+
 
 @media (min-width: 576px) {
     body {
@@ -85,6 +86,8 @@ table {
 }
 
 
+
+
 /* Ab hier nur der Pfeil nach oben */
 
 .Backtoup {
@@ -98,7 +101,7 @@ table {
 .to-top{
 	color:white;
 	padding-top:1.8em;
-	display:inline-block;/* or block */
+	display:inline-block;            /* or block */
 	position:relative;
 	border-color:white;
 	text-decoration:none;
