@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aniextreme</title>
-    <link rel="stylesheet" href="Seiten/Startseite/style.css">
+    <link rel="stylesheet" href="Seiten/Startseite/Style.css">
     <link rel="icon" type="image/png" href="Seiten/Bilder/Aniextreme Icon.png">
     <link rel="stylesheet" href="Seiten/Navigation/Fontawesome/css/all.css">
     <link rel="stylesheet" href="Seiten/Navigation/Navigationsleiste.css">
-    <script src="Seiten/Navigation/Navigationsleiste.js" defer></script>
+</head>
 <body>
-    <header>                                 <!--Navigationsleiste-->
-        <div id="hauptnavigation">              
+    <div class="container"> 
+        <header><div id="hauptnavigation">              
             <div class="logobereich">
                 <a href="index.html" class="nav-logo"></a>          <!--Wenn man auf das Logo Klickt wird man auf die Startseite geleitet-->
             </div>
@@ -38,78 +38,48 @@
             <a href="javascript:void(0);" class="hamburger-icon" onclick="navigationUmschalten()">          <!--Damit solche drei Balken für die Navigationsleite Angezeigt werden-->
                 <i class="fa fa-bars"></i>
             </a>
-        </div>
-    </header>
-    <div id="hauptbehaelter">
-        <div  class="Logobild">
-            <img src="Seiten/Startseite/Bilder/Webi Bild.png"alt="Logo Bild">
-        </div>
-        <h2 class="AnimesStreamen">
-            Animes Streamen in 1080p Qualität
-        </h2>
+        </div></header> 
+        <Bild class="Start-Bild">
+            <div class="Bild">
+                <img src="Seiten/Startseite/Bilder/Webseiten Bild.png" alt="Aniextreme Bild">
+            </div>
+        </Bild>
+        <Text1>
+            <div class="Überschrift1">
+                <h2>Neu bei uns</h2>
+            </div>
+        </Text1>
+        <Anime1 class="Neue-Animes">
+            <div class="Neu-Ani1">
+                <a href="Seiten/Another.html">
+                    <img src="Seiten/Animes/Another/Bilder/Another.jpg" alt="Another Bild">
+                    <h3>Another</h3>
+                    <h4>2012 • Horror</h4>
+                </a>
+            </div>
+        </Anime1>
+        <Anime2 class="Neue-Animes">
+            <div class="Neu-Ani2">
+                <a href="Seiten/Demon-Slayer.html">
+                    <img src="Seiten/Animes/Demon Slayer/Bilder/Demon Slayer.jpg" alt="">
+                    <h3>Demon Slayer</h3>
+                    <h4>2022 • Abenteuer</h4>
+                </a>
+            </div>
+        </Anime2>
+        <aside>
 
-        <section class="ZudenAnimes">
-            <h2>
-               <a href="Seiten/Anime Liste.html" style="color: #8800ff;" >Hier geht es zu Unseren Animes &gtrdot;</a>
-            </h2>
-        </section>
+        </aside> 
+        <article>
+            <div>
+                <p></p>
+            </div>
+        </article> 
+        <footer>
+            <div class="copy">
+                <p>&copy Copyright 2022. Aniextreme Designed by Teknikator</p>
+            </div>
+        </footer> 
     </div>
 </body>
-
-<footer class="footer">
-    <div class="tabelle">
-        <table>
-            <thead>
-                <tr>
-                    <th>
-                        <h4 class="Buchstabe">Über Uns</h4>
-                    </th>
-                    </tr>
-            </thead>
-            <tbody>
-                <th>
-                    <a href="Seiten/DMCA.html">DMCA</a>
-                </th>
-            </tr>
-            </tbody>
-        </table>
-        <table>
-            <thead>
-                <tr>
-                    <th>
-                        <h4 class="Buchstabe">Animes</h4>
-                    </th>
-                    </tr>
-            </thead>
-            <tbody>
-                <th>
-                    <a href="Seiten/Anime Liste.html">Alle</a>
-                </th>
-            </tr>
-            </tbody>
-        </table>
-        <table>
-            <thead>
-                <tr>
-                    <th>
-                        <h4 class="Buchstabe">Folgt Uns!</h4>
-                    </th>
-                    </tr>
-            </thead>
-            <tbody>
-                <th>
-                    <a href="https://discord.gg/TGxY7UruBa" class="nav-link"><i class="fab fa-discord nav-icon"></i></a>
-                </th>
-            </tr>
-            </tbody>
-        </table>
-    
-    </div>
-
-    <div class="copy-footer">
-        <p>&copy Copyright 2022. Aniextreme Designed by Teknikator</p>
-    </div>
-
-</footer>
-
 </html>
