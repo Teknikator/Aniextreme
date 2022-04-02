@@ -1,0 +1,56 @@
+
+@media (min-width: 600px) {
+  .container { 
+    height:100vh; 
+    display: grid; 
+    grid-template-rows: 300px 50px 1fr; 
+    grid-template-columns: 10% 20% 20% 20% 20% 10%;
+    grid-template-areas:                                    /*Die Einzelnen Bereicht zum merken Bechriften*/
+   "Leer Bild1 Bild2 Bild3 Bild4 Leer"
+    "Bild1T content content content sidebar"                          /*Wenn in einen Bereich nichts reinkommt muss man einfach nur none schreiben*/
+    "footer footer footer footer footer"; 
+    background: linear-gradient(#3d3d3d, #000000);
+  }
+
+  Bild1T h3 h4 {
+    color: #ffffff;
+    font-size: 1em;
+    margin-top: 0;
+  }
+
+  img {
+    display: block;    
+    height: 300px;
+    width: auto;
+    border-radius: 20px;
+  }
+
+}
+
+
+@media (min-width: 1200px){
+  .container { 
+    height:100vh; 
+    display: grid; 
+    grid-template-rows: 300px 50px 1fr; 
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-areas:                                    /*Die Einzelnen Bereicht zum merken Bechriften*/
+   "Bild1 Bild2 header header header"
+    "Bild1T content content content sidebar"                          /*Wenn in einen Bereich nichts reinkommt muss man einfach nur none schreiben*/
+    "footer footer footer footer footer"; 
+    background: linear-gradient(#3d3d3d, #000000);
+ } 
+
+ Bild1T h3 h4 {
+   color: #ffffff;
+   font-size: 1em;
+   margin-top: 0;
+ }
+
+ img {
+  display: block;
+  height: 300px;
+  width: auto;
+  border-radius: 20px;
+}
+}
