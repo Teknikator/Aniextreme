@@ -11,19 +11,19 @@ a:link, a:visited {
   text-decoration: none;                     /*Bewirkt das Links nicht unterstrichen sind*/
 }
 
-@media (max-width: 1650px) {
+@media (max-width: 1600px) {
   .container { 
     height:100vh; 
     display: grid; 
-    grid-template-rows: 100px 650px 50px 350px 1fr 30px; 
+    grid-template-rows: 100px 650px 50px 350px 150px 30px; 
     grid-template-columns: 10% 16% 16% 16% 16% 16% 10%; 
     grid-template-areas:  
-      "header header header header"
-      "Bild Bild Bild Bild"
-      "Text1 Text1 Text1 Text1"
-      "Neu-bei-uns Neu-bei-uns Neu-bei-uns Neu-bei-uns"
-      "sidebar content content content " 
-      "footer footer footer footer" 
+      "header"
+      "Bild"
+      "Text1"
+      "Neu-bei-uns"
+      "sidebar content" 
+      "copy" 
     ; 
   }
   header { 
@@ -59,19 +59,21 @@ a:link, a:visited {
     grid-row-start:4; 
     grid-row-end:5; 
   }
-  article { 
+
+  Anime3 {
+    grid-column-start:4; 
+    grid-column-end:5; 
+    grid-row-start:4; 
+    grid-row-end:5; 
+  }
+
+  footer1 {
     grid-column-start:2; 
-    grid-column-end:8; 
+    grid-column-end:7; 
     grid-row-start:5; 
     grid-row-end:6; 
-  } 
-  aside { 
-    grid-column-start:1; 
-    grid-column-end:2; 
-    grid-row-start:5; 
-    grid-row-end:6; 
-  } 
-  footer { 
+  }
+  copy { 
     grid-column-start:1; 
     grid-column-end:8; 
     grid-row-start:6; 
@@ -105,9 +107,6 @@ a:link, a:visited {
   border-radius: 30px;
   }
   
-  .Neu-Ani1 {
-  margin-left: 20px;
-  }
   
   .Neu-Ani1 h3 {
   margin-top: 0;
@@ -130,8 +129,6 @@ a:link, a:visited {
   margin-left: 35px;
   color: #ffffff;
   }
-  
-
 
   .Neu-Ani2 h4 {
     margin-top: 0;
@@ -140,14 +137,39 @@ a:link, a:visited {
     font-size: 12px;
     color: #acacac;
   }
+
+  .Neu-Ani3 h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 35px;
+    color: #ffffff;
+  }
+  
+  .Neu-Ani3 h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 35px;
+    font-size: 12px;
+    color: #acacac;
+  }
+
+  .tabelle {
+    display: flex;
+    justify-content: space-around;
+    color: #ffffff;
+  }
+  .tabelle a {
+    text-decoration: none;
+    color: #bbb;
+  }
 }
 
 
-@media (min-width: 1650px) {
+@media (min-width: 1600px) {
   .container { 
     height:100vh; 
     display: grid; 
-    grid-template-rows: 100px 650px 50px 350px 1fr 30px; 
+    grid-template-rows: 100px 650px 100px 350px 150px 30px; 
     grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%; 
     grid-template-areas:  
       "header header header header"
@@ -191,23 +213,25 @@ a:link, a:visited {
     grid-row-start:4; 
     grid-row-end:5; 
   }
-  article { 
+
+  Anime3 {
+    grid-column-start:4; 
+    grid-column-end:5; 
+    grid-row-start:4; 
+    grid-row-end:5; 
+  }
+
+  footer1 {
     grid-column-start:2; 
-    grid-column-end:9; 
+    grid-column-end:8; 
     grid-row-start:5; 
     grid-row-end:6; 
-  } 
-  aside { 
-    grid-column-start:1; 
-    grid-column-end:2; 
-    grid-row-start:5; 
-    grid-row-end:6; 
-  } 
-  footer { 
+  }
+  copy { 
     grid-column-start:1; 
     grid-column-end:9; 
-    grid-row-start:6; 
-    grid-row-end:7; 
+    grid-row-start:7; 
+    grid-row-end:8; 
   
   }
   
@@ -236,10 +260,7 @@ a:link, a:visited {
   width: 180px;
   border-radius: 30px;
   }
-  
-  .Neu-Ani1 {
-  margin-left: 20px;
-  }
+
   
   .Neu-Ani1 h3 {
   margin-top: 0;
@@ -271,6 +292,32 @@ a:link, a:visited {
     margin-left: 35px;
     font-size: 12px;
     color: #acacac;
+  }
+
+  .Neu-Ani3 h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 25px;
+    color: #ffffff;
+  }
+  
+  .Neu-Ani3 h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 25px;
+    font-size: 12px;
+    color: #acacac;
+  }
+
+  .tabelle {
+    display: flex;
+    justify-content: space-around;
+    color: #ffffff;
+    margin-top: 50px;
+  }
+  .tabelle a {
+    text-decoration: none;
+    color: #bbb;
   }
 }
 
