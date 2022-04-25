@@ -1,8 +1,11 @@
+/*
 window.onload = () => {
     const navigationsleiste = document.getElementById("hauptnavigation");
     const unteresEnde = navigationsleiste.offsetTop + navigationsleiste.offsetHeight;
     document.getElementById("hauptbehaelter").style.marginTop = unteresEnde + "px";
 }
+*/
+/*Braucht man nicht*/
 
 function navigationUmschalten () {
     const navigationsleiste = document.getElementById("hauptnavigation");

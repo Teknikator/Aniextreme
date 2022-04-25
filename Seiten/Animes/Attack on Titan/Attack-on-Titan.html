@@ -6,24 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aniextreme</title>
-    <link rel="stylesheet" href="Animes/Attack on Titan/Style Attack on Titan.css">
-    <link rel="icon" type="image/png" href="Bilder/Aniextreme Icon.png">
-    <link rel="stylesheet" href="Navigation/Fontawesome/css/all.css">
-    <link rel="stylesheet" href="Navigation/Navigationsleiste.css">
-    <script src="Navigation/Navigationsleiste.js" defer></script>
+    <link rel="stylesheet" href="Style Attack on Titan.css">
+    <link rel="icon" type="image/png" href="../../Bilder/Aniextreme Icon.png">
+    <link rel="stylesheet" href="../../Navigation/Fontawesome/css/all.css">
+    <link rel="stylesheet" href="../../Navigation/Navigationsleiste.css">
+    <script src="../../Navigation/Navigationsleiste.js" defer></script>
 </head>
 
 <body>
     <div class="container">
-        <header>
+        <Navigation>
             <div id="hauptnavigation">
                 <div class="logobereich">
-                    <a href="../index.html" class="nav-logo"></a>
+                    <a href="../../../index.html" class="nav-logo"></a>
                     <!--Wenn man auf das Logo Klickt wird man auf die Startseite geleitet-->
                 </div>
                 <div class="navigationsbereich">
                     <div class="nav-oben">
-                        <a href="Seiten/Kontakt.html" class="nav-link">
+                        <a href="../../Kontakt/Kontakt.html" class="nav-link">
                             <i class="fas fa-envelope nav-icon"></i>
                             Kontakt
                         </a>
@@ -34,11 +34,11 @@
                     </div>
                     <div class="nav-unten">
                         <div class="navigationspunkte">
-                            <a href="../index.html" class="nav-punkt nav-link">Startseite</a>
+                            <a href="../../../index.html" class="nav-punkt nav-link">Startseite</a>
                             <!--aktiv wird dazu genutzt das die Farbe der geraden Besuchten seite in der Naigationsleiste Verändert wird-->
-                            <a href="Anime Liste.html" class="nav-punkt nav-link">Animes</a>
+                            <a href="../../Anime-Liste/Anime Liste.html" class="nav-punkt nav-link">Animes</a>
                             <a href="" class="nav-punkt nav-link">Bilder</a>
-                            <a href="Kontakt.html" class="nav-punkt nav-link">Kontakt</a>
+                            <a href="../../Kontakt/Kontakt.html" class="nav-punkt nav-link">Kontakt</a>
                         </div>
                     </div>
                 </div>
@@ -47,7 +47,7 @@
                     <i class="fa fa-bars"></i>
                 </a>
             </div>
-        </header>
+        </Navigation>
 
         <Anime class="Ueberschrift">
             <div>
@@ -57,7 +57,7 @@
 
         <Bild-Infos>
             <div class="Bild">
-                <img src="Animes/Attack on Titan/Bilder/Attack on Titan.jpg" alt="Attack on Titan Bild">
+                <img src="Bilder/Attack on Titan.jpg" alt="Attack on Titan Bild">
             </div>
             <div class="Data">
                 <table class="Infos">
@@ -114,7 +114,7 @@
                     <tbody class="Episoden">
                         <tr>
                             <th>
-                                <h5>87 Episoden</h5>
+                                <h5>87 Episoden in 4 Staffeln</h5>
                             </th>
                         </tr>
                     </tbody>
@@ -161,6 +161,20 @@
                                 <h5><a href="">Mystery</a><a href="">Psychodrama</a><a href="">Übermäßige -
                                         Gewaltdarstellung</a></h5>
 
+                            </th>
+                        </tr>
+                    </tbody>
+                    <thead class="Alterfreigabe">
+                        <tr>
+                            <th>
+                                <h2>Alterfreigabe</h2>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody class="Alterfreigabe">
+                        <tr>
+                            <th>
+                                <img class="FSK" src="../../Bilder/Fsk Logos/FSK_16.svg" alt="FSK 16">
                             </th>
                         </tr>
                     </tbody>
@@ -213,7 +227,10 @@
 
         <Staffeln>
             <div class="Staffeln">
-                <a href=""><button class="glow-on-hover" type="button">Staffel 1</button></a>
+                <a href=""><button class="glow-on-hover" type="button"><h4 class="aktiv">Staffel 1</h4></button></a>
+                <a href=""><button class="glow-on-hover" type="button"><h4>Staffel 2</h4></button></a>
+                <a href=""><button class="glow-on-hover" type="button"><h4>Staffel 3</h4></button></a>
+                <a href=""><button class="glow-on-hover" type="button"><h4>Staffel 4</h4></button></a>
             </div>
         </Staffeln>
 
@@ -221,155 +238,157 @@
             <div>
                 <table class="Staffel1-Tabelle">
                     <tbody>
-                        <tr>
+                        <tr class="hover" itemprop="" itemscope itemtype="">
+
                             <th class="Folge">1</th>
-                            <th><a href="">An dich in 2000 Jahren – Der Fall von Shiganshina, Teil 1</a></th>
-                            <th><img src="Bilder/Flaggen/japde.png" alt="japde Flagge"></th>
+                            <th class="Name-der-Folge"><a href="">An dich in 2000 Jahren – Der Fall von Shiganshina, Teil 1</a></th>
+                            <th class="Verfügbarkeit"><img src="../../Bilder/Flaggen/Deutschland Flagge.webp" alt="japde Flagge"><img src="../../Bilder/Flaggen/Japan Flagge.svg" alt=""></th>
                             <th class="Qualität">1080p</th>
+
                         </tr>
                         <tr>
                             <th class="Folge">2</th>
-                            <th><a href="">An jenem Tag – Der Fall von Shiganshina, Teil 2</a></th>
-                            <th><img src="Bilder/Flaggen/japde.png" alt="japde Flagge"></th>
-                            <th>1080p</th>
+                            <th class="Name-der-Folge"><a href="">An jenem Tag – Der Fall von Shiganshina, Teil 2</a></th>
+                            <th class="Verfügbarkeit"><img src="../../Bilder/Flaggen/japde.png" alt="japde Flagge"></th>
+                            <th class="Qualität">1080p</th>
                         </tr>
                         <tr>
                             <th class="Folge">3</th>
-                            <th><a href="">Ein fahles Licht inmitten der Verzweiflung – Die Rückkehr der Menschheit, Teil 1</a></th>
-                            <th><img src="Bilder/Flaggen/japde.png" alt="japde Flagge"></th>
-                            <th>1080p</th>
+                            <th class="Name-der-Folge"><a href="">Ein fahles Licht inmitten der Verzweiflung – Die Rückkehr der Menschheit, Teil 1</a></th>
+                            <th class="Verfügbarkeit"><img src="../../Bilder/Flaggen/japde.png" alt="japde Flagge"></th>
+                            <th class="Qualität">1080p</th>
                         </tr>
                         <tr>
                             <th class="Folge">4</th>
-                            <th><a href="">Die Nacht der Abschlusszeremonie – Die Rückkehr der Menschheit, Teil 2</a></th>
-                            <th><img src="Bilder/Flaggen/japde.png" alt="japde Flagge"></th>
-                            <th>1080p</th>
+                            <th class="Name-der-Folge"><a href="">Die Nacht der Abschlusszeremonie – Die Rückkehr der Menschheit, Teil 2</a></th>
+                            <th class="Verfügbarkeit"><img src="../../Bilder/Flaggen/japde.png" alt="japde Flagge"></th>
+                            <th class="Qualität">1080p</th>
                         </tr>
                         <tr>
                             <th class="Folge">5</th>
-                            <th><a href="">Feuertaufe – Schlacht um den Bezirk Trost, Teil 1</a></th>
-                            <th><img src="Bilder/Flaggen/japde.png" alt="japde Flagge"></th>
-                            <th>1080p</th>
+                            <th class="Name-der-Folge"><a href="">Feuertaufe – Schlacht um den Bezirk Trost, Teil 1</a></th>
+                            <th class="Verfügbarkeit"><img src="../../Bilder/Flaggen/japde.png" alt="japde Flagge"></th>
+                            <th class="Qualität">1080p</th>
                         </tr>
                         <tr>
                             <th class="Folge">6</th>
-                            <th><a href="">Die Welt durch die Augen eines Mädchens – Schlacht um den Bezirk Trost, Teil 2</a></th>
-                            <th><img src="Bilder/Flaggen/japde.png" alt="japde Flagge"></th>
-                            <th>1080p</th>
+                            <th class="Name-der-Folge"><a href="">Die Welt durch die Augen eines Mädchens – Schlacht um den Bezirk Trost, Teil 2</a></th>
+                            <th class="Verfügbarkeit"><img src="../../Bilder/Flaggen/japde.png" alt="japde Flagge"></th>
+                            <th class="Qualität">1080p</th>
                         </tr>
                         <tr>
                             <th class="Folge">7</th>
-                            <th><a href="">Eine kleine Klinge – Schlacht um den Bezirk Trost, Teil 3</a></th>
-                            <th><img src="Bilder/Flaggen/japde.png" alt="japde Flagge"></th>
-                            <th>1080p</th>
+                            <th class="Name-der-Folge"><a href="">Eine kleine Klinge – Schlacht um den Bezirk Trost, Teil 3</a></th>
+                            <th class="Verfügbarkeit"><img src="../../Bilder/Flaggen/japde.png" alt="japde Flagge"></th>
+                            <th class="Qualität">1080p</th>
                         </tr>
                         <tr>
                             <th class="Folge">8</th>
-                            <th><a href="">Ich kann seinen Herzschlag hören – Schlacht um den Bezirk Trost, Teil 4</a></th>
-                            <th><img src="Bilder/Flaggen/japde.png" alt="japde Flagge"></th>
-                            <th>1080p</th>
+                            <th class="Name-der-Folge"><a href="">Ich kann seinen Herzschlag hören – Schlacht um den Bezirk Trost, Teil 4</a></th>
+                            <th class="Verfügbarkeit"><img src="../../Bilder/Flaggen/japde.png" alt="japde Flagge"></th>
+                            <th class="Qualität">1080p</th>
                         </tr>
                         <tr>
                             <th class="Folge">9</th>
-                            <th><a href="">Der Verbleib des linken Arms – Schlacht um den Bezirk Trost, Teil 5</a></th>
-                            <th><img src="Bilder/Flaggen/japde.png" alt="japde Flagge"></th>
-                            <th>1080p</th>
+                            <th class="Name-der-Folge"><a href="">Der Verbleib des linken Arms – Schlacht um den Bezirk Trost, Teil 5</a></th>
+                            <th class="Verfügbarkeit"><img src="../../Bilder/Flaggen/japde.png" alt="japde Flagge"></th>
+                            <th class="Qualität">1080p</th>
                         </tr>
                         <tr>
                             <th class="Folge">10</th>
-                            <th><a href="">Die Reaktion – Schlacht um den Bezirk Trost, Teil 6</a></th>
-                            <th><img src="Bilder/Flaggen/japde.png" alt="japde Flagge"></th>
-                            <th>1080p</th>
+                            <th class="Name-der-Folge"><a href="">Die Reaktion – Schlacht um den Bezirk Trost, Teil 6</a></th>
+                            <th class="Verfügbarkeit"><img src="../../Bilder/Flaggen/japde.png" alt="japde Flagge"></th>
+                            <th class="Qualität">1080p</th>
                         </tr>
                         <tr>
                             <th class="Folge">11</th>
-                            <th><a href="">Das Idol – Schlacht um den Bezirk Trost, Teil 7</a></th>
-                            <th><img src="Bilder/Flaggen/japde.png" alt="japde Flagge"></th>
-                            <th>1080p</th>
+                            <th class="Name-der-Folge"><a href="">Das Idol – Schlacht um den Bezirk Trost, Teil 7</a></th>
+                            <th class="Verfügbarkeit"><img src="../../Bilder/Flaggen/japde.png" alt="japde Flagge"></th>
+                            <th class="Qualität">1080p</th>
                         </tr>
                         <tr>
                             <th class="Folge">12</th>
-                            <th><a href="">Die Wunde – Schlacht um den Bezirk Trost, Teil 8</a></th>
-                            <th><img src="Bilder/Flaggen/japde.png" alt="japde Flagge"></th>
-                            <th>1080p</th>
+                            <th class="Name-der-Folge"><a href="">Die Wunde – Schlacht um den Bezirk Trost, Teil 8</a></th>
+                            <th class="Verfügbarkeit"><img src="../../Bilder/Flaggen/japde.png" alt="japde Flagge"></th>
+                            <th class="Qualität">1080p</th>
                         </tr>
                         <tr>
                             <th class="Folge">13</th>
-                            <th><a href="">Urtrieb – Schlacht um den Bezirk Trost, Teil 9</a></th>
-                            <th><img src="Bilder/Flaggen/japde.png" alt="japde Flagge"></th>
-                            <th>1080p</th>
+                            <th class="Name-der-Folge"><a href="">Urtrieb – Schlacht um den Bezirk Trost, Teil 9</a></th>
+                            <th class="Verfügbarkeit"><img src="../../Bilder/Flaggen/japde.png" alt="japde Flagge"></th>
+                            <th class="Qualität">1080p</th>
                         </tr>
                         <tr>
                             <th class="Folge">14</th>
-                            <th><a href="">Noch nicht fähig, in die Augen zu sehen – Am Vorabend der Gegenoffensive, Teil 1</a></th>
-                            <th><img src="Bilder/Flaggen/japde.png" alt="japde Flagge"></th>
-                            <th>1080p</th>
+                            <th class="Name-der-Folge"><a href="">Noch nicht fähig, in die Augen zu sehen – Am Vorabend der Gegenoffensive, Teil 1</a></th>
+                            <th class="Verfügbarkeit"><img src="../../Bilder/Flaggen/japde.png" alt="japde Flagge"></th>
+                            <th class="Qualität">1080p</th>
                         </tr>
                         <tr>
                             <th class="Folge">15</th>
-                            <th><a href="">Spezialkommando – Am Vorabend der Gegenoffensive, Teil 2</a></th>
-                            <th><img src="Bilder/Flaggen/japde.png" alt="japde Flagge"></th>
-                            <th>1080p</th>
+                            <th class="Name-der-Folge"><a href="">Spezialkommando – Am Vorabend der Gegenoffensive, Teil 2</a></th>
+                            <th class="Verfügbarkeit"><img src="../../Bilder/Flaggen/japde.png" alt="japde Flagge"></th>
+                            <th class="Qualität">1080p</th>
                         </tr>
                         <tr>
                             <th class="Folge">16</th>
-                            <th><a href="">Was getan werden muss – Am Vorabend der Gegenoffensive, Teil 3</a></th>
-                            <th><img src="Bilder/Flaggen/japde.png" alt="japde Flagge"></th>
-                            <th>1080p</th>
+                            <th class="Name-der-Folge"><a href="">Was getan werden muss – Am Vorabend der Gegenoffensive, Teil 3</a></th>
+                            <th class="Verfügbarkeit"><img src="../../Bilder/Flaggen/japde.png" alt="japde Flagge"></th>
+                            <th class="Qualität">1080p</th>
                         </tr>
                         <tr>
                             <th class="Folge">17</th>
-                            <th><a href="">Der weibliche Titan – Die 57. Expedition hinter die Mauer, Teil 1</a></th>
-                            <th><img src="Bilder/Flaggen/japde.png" alt="japde Flagge"></th>
-                            <th>1080p</th>
+                            <th class="Name-der-Folge"><a href="">Der weibliche Titan – Die 57. Expedition hinter die Mauer, Teil 1</a></th>
+                            <th class="Verfügbarkeit"><img src="../../Bilder/Flaggen/japde.png" alt="japde Flagge"></th>
+                            <th class="Qualität">1080p</th>
                         </tr>
                         <tr>
                             <th class="Folge">18</th>
-                            <th><a href="">Der Wald der Baumriesen – Die 57. Expedition hinter die Mauer, Teil 2</a></th>
-                            <th><img src="Bilder/Flaggen/japde.png" alt="japde Flagge"></th>
-                            <th>1080p</th>
+                            <th class="Name-der-Folge"><a href="">Der Wald der Baumriesen – Die 57. Expedition hinter die Mauer, Teil 2</a></th>
+                            <th class="Verfügbarkeit"><img src="../../Bilder/Flaggen/japde.png" alt="japde Flagge"></th>
+                            <th class="Qualität">1080p</th>
                         </tr>
                         <tr>
                             <th class="Folge">19</th>
-                            <th><a href="">Der Biss – Die 57. Expedition hinter die Mauer, Teil 3</a></th>
-                            <th><img src="Bilder/Flaggen/japde.png" alt="japde Flagge"></th>
-                            <th>1080p</th>
+                            <th class="Name-der-Folge"><a href="">Der Biss – Die 57. Expedition hinter die Mauer, Teil 3</a></th>
+                            <th class="Verfügbarkeit"><img src="../../Bilder/Flaggen/japde.png" alt="japde Flagge"></th>
+                            <th class="Qualität">1080p</th>
                         </tr>
                         <tr>
                             <th class="Folge">20</th>
-                            <th><a href="">Erwin Smith – Die 57. Expedition hinter die Mauer, Teil 4</a></th>
-                            <th><img src="Bilder/Flaggen/japde.png" alt="japde Flagge"></th>
-                            <th>1080p</th>
+                            <th class="Name-der-Folge"><a href="">Erwin Smith – Die 57. Expedition hinter die Mauer, Teil 4</a></th>
+                            <th class="Verfügbarkeit"><img src="../../Bilder/Flaggen/japde.png" alt="japde Flagge"></th>
+                            <th class="Qualität">1080p</th>
                         </tr>
                         <tr>
                             <th class="Folge">21</th>
-                            <th><a href="">Ein harter Schlag – Die 57. Expedition hinter die Mauer, Teil 5</a></th>
-                            <th><img src="Bilder/Flaggen/japde.png" alt="japde Flagge"></th>
-                            <th>1080p</th>
+                            <th class="Name-der-Folge"><a href="">Ein harter Schlag – Die 57. Expedition hinter die Mauer, Teil 5</a></th>
+                            <th class="Verfügbarkeit"><img src="../../Bilder/Flaggen/japde.png" alt="japde Flagge"></th>
+                            <th class="Qualität">1080p</th>
                         </tr>
                         <tr>
                             <th class="Folge">22</th>
-                            <th><a href="">Die Besiegten – Die 57. Expedition hinter die Mauer, Teil 6</a></th>
-                            <th><img src="Bilder/Flaggen/japde.png" alt="japde Flagge"></th>
-                            <th>1080p</th>
+                            <th class="Name-der-Folge"><a href="">Die Besiegten – Die 57. Expedition hinter die Mauer, Teil 6</a></th>
+                            <th class="Verfügbarkeit"><img src="../../Bilder/Flaggen/japde.png" alt="japde Flagge"></th>
+                            <th class="Qualität">1080p</th>
                         </tr>
                         <tr>
                             <th class="Folge">23</th>
-                            <th><a href="">	Das Lächeln – Sturm auf den Bezirk Stohess, Teil 1</a></th>
-                            <th><img src="Bilder/Flaggen/japde.png" alt="japde Flagge"></th>
-                            <th>1080p</th>
+                            <th class="Name-der-Folge"><a href="">	Das Lächeln – Sturm auf den Bezirk Stohess, Teil 1</a></th>
+                            <th class="Verfügbarkeit"><img src="../../Bilder/Flaggen/japde.png" alt="japde Flagge"></th>
+                            <th class="Qualität">1080p</th>
                         </tr>
                         <tr>
                             <th class="Folge">24</th>
-                            <th><a href="">Mitleid – Sturm auf den Bezirk Stohess, Teil 2</a></th>
-                            <th><img src="Bilder/Flaggen/japde.png" alt="japde Flagge"></th>
-                            <th>1080p</th>
+                            <th class="Name-der-Folge"><a href="">Mitleid – Sturm auf den Bezirk Stohess, Teil 2</a></th>
+                            <th class="Verfügbarkeit"><img src="../../Bilder/Flaggen/japde.png" alt="japde Flagge"></th>
+                            <th class="Qualität">1080p</th>
                         </tr>
                         <tr>
                             <th class="Folge">25</th>
-                            <th><a href="">Die Mauer – Sturm auf den Bezirk Stohess, Teil 3</a></th>
-                            <th><img src="Bilder/Flaggen/japde.png" alt="japde Flagge"></th>
-                            <th>1080p</th>
+                            <th class="Name-der-Folge"><a href="">Die Mauer – Sturm auf den Bezirk Stohess, Teil 3</a></th>
+                            <th class="Verfügbarkeit"><img src="../../Bilder/Flaggen/japde.png" alt="japde Flagge"></th>
+                            <th class="Qualität">1080p</th>
                         </tr>
                     </tbody>
                 </table>
@@ -389,7 +408,7 @@
                     <tbody>
                         <tr>
                             <th>
-                                <a href="Seiten/DMCA.html">DMCA</a>
+                                <a href="../../Dmca/DMCA.html">DMCA</a>
                             </th>
                         </tr>
                     </tbody>
@@ -404,7 +423,7 @@
                     </thead>
                     <tbody>
                         <th>
-                            <a href="Seiten/Anime Liste.html">Alle</a>
+                            <a href="../../Anime-Liste/Anime Liste.html">Alle</a>
                         </th>
                         </tr>
                     </tbody>

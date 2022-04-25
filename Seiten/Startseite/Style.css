@@ -67,6 +67,13 @@ a:link, a:visited {
     grid-row-end:5; 
   }
 
+  Anime4 {
+    grid-column-start:5; 
+    grid-column-end:6; 
+    grid-row-start:4; 
+    grid-row-end:5; 
+  }
+
   footer1 {
     grid-column-start:2; 
     grid-column-end:7; 
@@ -81,10 +88,6 @@ a:link, a:visited {
   
   }
   
-  .copy p {
-    color: #ffffff;
-    margin-top: 0;
-  }
   
   .Bild-Anime img {
     width: 100%;
@@ -153,15 +156,59 @@ a:link, a:visited {
     color: #acacac;
   }
 
-  .tabelle {
-    display: flex;
-    justify-content: space-around;
+  .Neu-Ani4 h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 35px;
     color: #ffffff;
   }
-  .tabelle a {
-    text-decoration: none;
-    color: #bbb;
+  
+  .Neu-Ani4 h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 35px;
+    font-size: 12px;
+    color: #acacac;
   }
+
+  /*Ab hier nur Tabelle*/
+.tabelle {
+  display: flex;
+  justify-content: space-around;
+  color: #ffffff;
+}
+.tabelle a {
+  text-decoration: none;
+  color: #bbb;
+}
+
+.link-hover {
+padding: 5px;
+}
+
+.ueber-uns {
+margin-bottom: 20%;
+}
+
+.copy p {
+  color: #ffffff;
+  margin-top: 0;
+}
+
+.icon img {
+width: 25px;
+height: auto;
+margin-top: 5%;
+}
+
+.icon :hover{
+opacity: 70%;
+}
+
+.link-hover :hover {
+opacity: 70%;
+}
+
 }
 
 
@@ -221,6 +268,13 @@ a:link, a:visited {
     grid-row-end:5; 
   }
 
+  Anime4 {
+    grid-column-start:5; 
+    grid-column-end:6; 
+    grid-row-start:4; 
+    grid-row-end:5; 
+  }
+
   footer1 {
     grid-column-start:2; 
     grid-column-end:8; 
@@ -235,10 +289,6 @@ a:link, a:visited {
   
   }
   
-  .copy p {
-    color: #ffffff;
-    margin-top: 0;
-  }
   
   .Bild-Anime img {
     width: 100%;
@@ -309,16 +359,58 @@ a:link, a:visited {
     color: #acacac;
   }
 
-  .tabelle {
-    display: flex;
-    justify-content: space-around;
+  .Neu-Ani4 h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 35px;
     color: #ffffff;
-    margin-top: 50px;
   }
-  .tabelle a {
-    text-decoration: none;
-    color: #bbb;
+  
+  .Neu-Ani4 h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 35px;
+    font-size: 12px;
+    color: #acacac;
   }
+
+
+  /*Ab hier nur Tabelle*/
+.tabelle {
+  display: flex;
+  justify-content: space-around;
+  color: #ffffff;
+}
+.tabelle a {
+  text-decoration: none;
+  color: #bbb;
 }
 
+.link-hover {
+padding: 5px;
+}
 
+.ueber-uns {
+margin-bottom: 20%;
+}
+
+.copy p {
+  color: #ffffff;
+  margin-top: 0;
+}
+
+.icon img {
+width: 25px;
+height: auto;
+margin-top: 5%;
+}
+
+.icon :hover{
+opacity: 70%;
+}
+
+.link-hover :hover {
+opacity: 70%;
+}
+
+}

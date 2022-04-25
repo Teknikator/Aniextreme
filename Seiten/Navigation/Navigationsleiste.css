@@ -3,7 +3,7 @@ header{                                 /*Position der Navighationsleiste*/
 }
 
 #hauptnavigation {                              
-    position: fixed;                        
+    position: relative;                        
     left: 0;                                        /*Damit es Komplett oben aliegt left 0, top 0, right 0*/
     top: 0;
     right: 0;
@@ -25,6 +25,7 @@ header{                                 /*Position der Navighationsleiste*/
     background-position: center;                            /*Damit der Hintergrund mittig ist in dem fall das Logo*/
     width: 150px;                                           /*Die Größe das Logos*/
     height: 84px;
+    border-radius: 10px 10px;
 }
 
 .navigationsbereich {                                       
@@ -57,7 +58,7 @@ header{                                 /*Position der Navighationsleiste*/
 
 .nav-unten {
     display: flex;                                          /*Damit der Inhalt nebeneinander Angeordnet wird*/
-    width: 100%;                                            /*Damit sich der Text über den ganzen verfügbaren berreich erstreckt*/
+    width: 98%;                                            /*Damit sich der Text über den ganzen verfügbaren berreich erstreckt*/
     height: 100%;                                           /*Damit sich der Text über den ganzen verfügbaren berreich erstreckt*/
     background-color: #ffffff;
     clip-path: polygon(2% 0%, 100% 0%, 100% 100%, 0% 100%);     /*Damit der Linke Rand Abgeschrägt ist*/
